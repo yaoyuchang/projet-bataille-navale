@@ -26,7 +26,6 @@ Un jeu interactif de bataille navale implémenté en Python, avec gestion des gr
 
 - **`test_grille.py`** : Tests unitaires pour la classe Grille
 - **`test_bateau.py`** : Tests unitaires pour la classe Bateau
-- **`story_grille.py`** : User story "Plouf dans l'eau"
 - **`story_bateau.py`** : User story "Chevauchement"
 
 ## 📦 Installation
