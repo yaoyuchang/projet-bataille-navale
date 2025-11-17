@@ -31,17 +31,16 @@ class Bateau:
         else:
             for i in range(self.longueur):
                 pos.append((self.ligne, self.colonne + i))
-
-            return pos
+        return pos
     
     def coule(self, grille) -> bool:
         """
         Vérifie si le bateau est coulé sur la grille donnée.
-        Un bateau est coulé si toutes ses cases sont marquées 'x'.
+        Un bateau est coulé si toutes ses cases sont marquées '💣'.
         """
         for (ligne, colonne) in self.positions:
             idx = ligne * grille.n_colonnes + colonne
-            if grille.matrice[idx] != "x":
+            if grille.matrice[idx] != "💣":
                 return False
             else:
                 continue
